@@ -10,15 +10,15 @@ DATASETS_DIR = "../datasets"
 
 ##########################################################
 
-ANNOTATIONS_DIR = "{DATASETS_DIR}/Annotations"
-QUESTIONS_DIR = "{DATASETS_DIR}/Questions"
-IMAGES_DIR = "{DATASETS_DIR}/Images"
+ANNOTATIONS_DIR = DATASETS_DIR+"/Annotations"
+QUESTIONS_DIR = DATASETS_DIR+"/Questions"
+IMAGES_DIR = DATASETS_DIR+"/Images"
 
 ##########################################################
 
-!mkdir -p {ANNOTATIONS_DIR}
-!mkdir -p {QUESTIONS_DIR}
-!mkdir -p {IMAGES_DIR}
+!mkdir -p ANNOTATIONS_DIR
+!mkdir -p QUESTIONS_DIR
+!mkdir -p IMAGES_DIR
 
 ##########################################################
 
